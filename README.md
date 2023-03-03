@@ -3,7 +3,7 @@
 ## About The Project
 Recognize human activity using unsupervised learning. The project started with preprocessing the data by scaling it using Z-mean standardization. Then, a PCA model was created to reduce the dimensionality of the data. The number of principal components was determined to explain at least 95% of the variance in the original data.
 Next, the transformed data were used to perform clustering using three different algorithms: KMeans, agglomerative, and spectral. 
-To evaluate the performance of each clustering algorithm, two metrics were used: adjusted Rand index (ARI) and silhouette score.
+To evaluate the performance of each clustering algorithm, two metrics were used: adjusted Rand index (ARI) and silhouette score. Finally, the elbow method was used to find the optimal number of clusters for the KMeans model.
 
 ## Dataset source
 https://archive.ics.uci.edu/ml/datasets/human+activity+recognition+using+smartphones
